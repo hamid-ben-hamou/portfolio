@@ -1,0 +1,56 @@
+{
+    "project-01": {
+        "img": "./images/chatBot.png",
+        "title": "chatBot App With Api",
+        "language": "HTML CSS JS",
+        "link": "https://hamid-ben-hamou.github.io/chatBotApp/"
+    },
+    "project-02": {
+        "img": "./images/dashboard-1.png",
+        "title": "Dashboard",
+        "language": "HTML CSS JS",
+        "link": "https://hamid-ben-hamou.github.io/dashboard-01/"
+    },
+    "project-03": {
+        "img": "./images/dashboard-2.png",
+        "title": "Dashboard",
+        "language": "HTML CSS",
+        "link": "https://hamid-ben-hamou.github.io/temp-four/"
+    },
+    "project-04": {
+        "img": "./images/potfolio-1.png",
+        "title": "Portfolio",
+        "language": "HTML CSS",
+        "link": "https://hamid-ben-hamou.github.io/My-portfolio/"
+    },
+    "project-05": {
+        "img": "./images/WatherApp.png",
+        "title": "Wather App",
+        "language": "HTML CSS JS",
+        "link": "https://hamid-ben-hamou.github.io/WeatherApp/"
+    },
+    "project-06": {
+        "img": "./images/Elzero_Temp3.png",
+        "title": "Elzero Template three",
+        "language": "HTML CSS", 
+        "link": "https://hamid-ben-hamou.github.io/template-three/"
+    },
+    "project-07": {
+        "img": "./images/slider_images.png",
+        "title": "Slider images",
+        "language": "HTML CSS", 
+        "link": "https://hamid-ben-hamou.github.io/slider-images/"
+    },
+    "project-08": {
+        "img": "./images/safari.png",
+        "title": "Safari App",
+        "language": "HTML CSS", 
+        "link": "https://hamid-ben-hamou.github.io/safari/"
+    },
+    "project-09": {
+        "img": "./images/food_lover.png",
+        "title": "Food lover",
+        "language": "HTML CSS", 
+        "link": "https://hamid-ben-hamou.github.io/food-lover/"
+    }
+}

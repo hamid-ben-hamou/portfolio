@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+</head>
+<body class="">
+    
+    <div class="home" id="home">
+
+        <nav class="shadow d-flex align-items-center">
+
+            <div class="container d-flex align-items-center">
+
+                <div class="open-close d-sm-block d-lg-none">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <h3>Abdelhamid</h3>
+                <ul class="d-flex flex-column flex-lg-row gap-3 closed">
+                    <li class="list-unstyled"><a href="#home" class="text-decoration-none"><i class="fa-solid fa-home d-sm-block d-lg-none"></i> Home</a></li>
+                    <li class="list-unstyled"><a href="#about" class="text-decoration-none"><i class="fa-solid fa-user d-sm-block d-lg-none"></i> About me</a></li>
+                    <li class="list-unstyled"><a href="#skills" class="text-decoration-none"><i class="fa-solid fa-lightbulb d-sm-block d-lg-none"></i> Skills</a></li>
+                    <li class="list-unstyled"><a href="#projects" class="text-decoration-none"><i class="fa-solid fa-list-check d-sm-block d-lg-none"></i> My Projects</a></li>
+                    <li class="list-unstyled"><a href="#Contact" class="text-decoration-none"><i class="fa-solid fa-envelope d-sm-block d-lg-none"></i> Contact me</a></li>
+                </ul>
+
+                <div class="theme-toggler-btn">
+                    <div class="sheap border rounded-pill">
+                        <div class="cercle rounded-circle">
+                            <i class="fa-solid fa-moon"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </nav>
+
+        <!-- hero -->
+        <div class="hero d-flex align-items-center">
+
+            <div class="container">
+
+                <div class="text s-smooth hide-element">
+                    <h1>Hello EveryOne, I'm <span>Abdelhamid</span></h1>
+                    <p>I'm a <span id="typed"></span></p>
+                </div>
+                <div class="arrow-to-about">
+                    <a href="#about"><img src="images/down-arrow.png" alt=""></a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- about section -->
+     <div class="about-me s-smooth hide-element" id="about">
+        
+        <div class="container ">
+
+            <div class="title-section text-center pt-4 pb-4 s-smooth hide-element">
+
+                <h2>About Me</h2>
+
+            </div>
+
+            <div class="text-about pt-4 d-flex justify-content-center s-smooth hide-element">
+
+                <p class="lh-lg"><span class="ms-3">Hi!, Im Abdelhamid</span><br>A self-taught Front-End Developer and freelancer who loves creating clean and responsive websites.
+                    I design modern interfaces with HTML, CSS, JavaScript, and Bootstrap, always aiming for fast loading, easy navigation.</p>
+
+            </div>
+
+            <div class="social-links">
+                <ul class="d-flex align-items-center justify-content-center gap-4">
+                    <li class="list-unstyled"><a href="https://github.com/hamid-ben-hamou" class="btn rounded-circle"><i class="fa-brands fa-github"></i></a></li>
+                    <li class="list-unstyled"><a href="https://www.fiverr.com/sellers/abdelhamid122/edit?source=side_navigation" class="btn rounded-circle"><img src="images/fiver.png" width="40" alt=""></a></li>
+                    <li class="list-unstyled"><a href="https://www.linkedin.com/in/abd-el-hamid-ben-hamou-952961279?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="btn rounded-circle"><i class="fa-brands fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+
+        </div>
+
+     </div>
+
+     <!-- skilles -->
+     <div class="skills" id="skills">
+
+        <div class="container">
+
+            <div class="title-section text-center pt-4 pb-4 s-smooth hide-element">
+
+                <h2>Skills</h2>
+
+            </div>
+
+            <div class="skills-content d-flex align-items-center pt-5 pb-5 s-smooth hide-element">
+
+                <img src="images/skills.png" alt="" class="s-smooth hide-element d-lg-block d-sm-none d-none">
+
+                <div class="lg-programming d-flex flex-column gap-3 w-100">
+
+                    <div class="prog">
+
+                        <p class="mb-3">HTML&CSS</p>
+                        <div class="rate">
+                            <div class="percent" id="HTML&CSS80%">
+                                <p class="num"></p>
+                            </div>
+                        </div>
+    
+                    </div>
+    
+                    <div class="prog">
+    
+                        <p class="mb-3">JavaScript</p>
+                        <div class="rate">
+                            <div class="percent" id="JavaScript70%">
+                                <p class="num"></p>
+                            </div>
+                        </div>
+    
+                    </div>
+    
+                    <div class="prog">
+    
+                        <p class="mb-3">Bootstrap</p>
+                        <div class="rate">
+                            <div class="percent" id="Bootstrap50%">
+                                <p class="num"></p>
+                            </div>
+                        </div>
+    
+                    </div>
+    
+                    <div class="prog">
+    
+                        <p class="mb-3">PHP&MYSQL</p>
+                        <div class="rate">
+                            <div class="percent" id="PHP&MYSQL30%">
+                                <p class="num">20%</p>
+                            </div>
+                        </div>
+    
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+     </div>
+
+
+    <!-- projects -->
+    <div class="projects" id="projects">
+
+        <div class="container">
+
+            <div class="title-section text-center pt-4 pb-4 s-smooth hide-element">
+
+                <h2>Projects</h2>
+
+            </div>
+
+            <div class="project-content d-flex align-items-center gap-4 mt-5 mb-5 s-smooth hide-element">
+
+                <!-- here boxes -->
+               
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- contacte me -->
+<!-- 
+    <div class="contact">
+        
+        <div class="container">
+            
+            <div class="title-section text-center pt-4 pb-4 s-smooth hide-element">
+
+                <h2>Contact me</h2>
+
+            </div>
+
+            <div class="">
+                
+
+
+
+            </div>
+
+        </div>
+
+
+    </div> -->
+
+
+    <!-- bootstrap -->
+    <script src="scripts/bootstrap.bundle.min.js"></script>
+    <!-- font Awesome -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/js/all.min.js" integrity="sha512-gBYquPLlR76UWqCwD06/xwal4so02RjIR0oyG1TIhSGwmBTRrIkQbaPehPF8iwuY9jFikDHMGEelt0DtY7jtvQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- delivr for auto typing -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <!-- main script -->
+    <script src="scripts/main.js"></script>
+</body>
+</html>
