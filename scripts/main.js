@@ -90,7 +90,7 @@ togglerThemeBtn.addEventListener('click', () => {
         document.querySelector('body').classList.add('dark-theme');
 
         // chage img 
-        document.querySelector('.hero').style.backgroundImage = "url('../images/back-dark.jpg')";
+        document.querySelector('.hero').style.backgroundImage = "url('../portfolio/images/back-dark.jpg')";
         
         
     } else {
@@ -100,7 +100,7 @@ togglerThemeBtn.addEventListener('click', () => {
         document.querySelector('body').classList.remove('dark-theme');
         
         // chage img 
-        document.querySelector('.hero').style.backgroundImage = "url('../images/back-light.jpg')";
+        document.querySelector('.hero').style.backgroundImage = "url('../portfolio/images/back-light.jpg')";
 
     }
 
@@ -243,5 +243,6 @@ let ScrollToBoxAfterHover = () => {
         
     }
     
+
 
 }
